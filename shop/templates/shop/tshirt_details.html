@@ -1,0 +1,39 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+
+<div class="w3-half w3-center">
+    <img src="../../static/tshirt bianca 3-4.png" height="500">
+</div>
+
+<div class="w3-half">
+        <div class="w3-round w3-xxxlarge w3-text-blue" style="font-family: 'Permanent Marker', cursive">
+            T-shirt
+        </div>
+        <p>Color : White</p>
+        <a href="tshirt_details"><img src="../../static/tshirt bianca 3-4.png" height="50" class="w3-hover-pale-blue"></a>
+        <br><br><br>
+        
+        <h2 style="font-family: 'Chakra Petch', sans-serif;">25 €</h2>
+        
+        <div style="position: relative; right: 20px;"><a href="payment_details" class="w3-btn w3-xlarge w3-text-white w3-blue w3-hover-green" style="font-family: 'Permanent Marker', cursive; width: 100%;">BUY</a></div>
+        <br><br><br>
+
+        <details>
+            <summary class="w3-btn w3-xlarge w3-text-blue" style="font-family: 'Permanent Marker', cursive">Materials and Details</summary>
+            <div class="w3-large w3-margin" style="font-family: 'Roboto';">
+            Materials: cotton, elastan
+            <br>
+            Composition: 98% cotton, 2% elastan
+            <br>
+            Sleeve length: Short
+            <br>
+            Fit: Regular
+            </div>
+        </details>
+</div>
+
+
+
+{% endblock %}

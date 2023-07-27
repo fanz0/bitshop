@@ -1,0 +1,46 @@
+div.container {
+    background-color: rgba(214, 217, 231, 0.144);
+    margin: auto;
+    margin-top: 100;
+    box-sizing: border-box;
+    border: 3px solid rgb(181, 230, 193);
+    border-radius: 10px;
+    text-transform: uppercase;
+    height: 450;
+    width: 40%;
+    position: relative;
+}
+
+label {
+    display: grid;
+    margin-top: 30;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 50;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    
+
+  }
+  
+.button1 {
+    background-color: white; 
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+  }
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

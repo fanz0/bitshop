@@ -1,0 +1,23 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/shop.css' %}?ts=">
+
+<div class="w3-container">
+
+    <div class="w3-half w3-center">
+        <h1 class="w3-jumbo products">T-Shirt</h1>
+        <a href="tshirt_details"><img src="../../static/tshirt bianca 3-4.png" height="350" class="w3-hover-pale-blue"></a>
+    </div>
+
+    <div class="w3-half w3-center">
+        <h1 class="w3-jumbo products">Hoodie</h1>
+        <a href="hoodie_details"><img src="../../static/hoodie bianca 3-4.png" height="350" class="w3-hover-pale-blue"></a>
+    </div>
+
+</div>
+
+
+{% endblock %}

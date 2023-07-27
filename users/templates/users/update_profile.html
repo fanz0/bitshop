@@ -1,0 +1,13 @@
+{% extends 'shop/base.html '%}
+
+{% block content %}
+
+<h1 style="margin: 30;">Update your bio</h1>
+
+<form action="" method="POST" style="margin: 30;">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <br>
+    <input type="submit" value="Update" class="btn btn-secondary">
+
+{% endblock %}

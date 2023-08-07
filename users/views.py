@@ -29,7 +29,8 @@ def logout_user(request):
 def profile(request):
     profile_user = Profile.objects.get(user=request.user)
     profile_bio = profile_user.bio
-    return render(request, 'users/profile.html', {'bio':profile_bio})
+    profile_wallet = profile_user.wallet_address
+    return render(request, 'users/profile.html', {'bio':profile_bio, 'wallet':profile_wallet})
 
 def register_user(request):
     if request.method == 'POST':

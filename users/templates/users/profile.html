@@ -29,7 +29,7 @@ a.font {
     text-decoration: none;
     color: rgb(16, 17, 0);
     position: relative;
-    left: 95%;
+    left: 92%;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     font-size: 20;
@@ -45,7 +45,7 @@ a.font:hover {
 
 <h1> {{ user }} </h1>
 
-<a class="font" href="{% url 'update_profile' %}">EDIT</a>
+<a class="font" href="{% url 'update_profile' %}">->EDIT</a>
 
 <br><br><br>
 
@@ -59,6 +59,12 @@ a.font:hover {
 <h2>Wallet Address</h2>
 <p class="grey">
     {{ wallet }}
+</p>
+
+<br><br>
+<h2>Token Balance</h2>
+<p>
+    {{ balance }} FZN
 </p>
   
 

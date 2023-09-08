@@ -14,10 +14,7 @@
     <li class="base"><a class="active" href="{% url 'home_page' %}">Home</a></li>
     <li class="base"><a href="{% url 'tshirt_details' %}">T-shirt</a></li>
     <li class="base"><a href="{% url 'hoodie_details' %}">Hoodie</a></li>
-    <li style="float:right" class="base"><a href="#about"><span class="material-symbols-outlined">
-        shopping_cart
-    </span></a></li>
-    <li class="dropdown" style="float:right"><a class="dropbtn" href=""><span class="material-symbols-outlined">
+    <li class="dropdown" style="position: relative; left: 650;"><a class="dropbtn" href=""><span class="material-symbols-outlined">
         person
     </span></a>
     <div class="dropdown-content">
@@ -27,7 +24,6 @@
             <a href="{% url 'login_user' %}">Login</a>
             <a href="{% url 'register_user' %}">Register</a>
         {% endif %}
-        <a href="">Orders</a>
         {% if user.is_authenticated %}
         <a href="{% url 'logout_user' %}">Logout</a>
         {% endif %}

@@ -9,7 +9,6 @@ config.read(configFilePath)
 
 # accoun details section
 account = config.get('Account_Details', 'account')
-print('Account: ', account)
 private_key = config.get('Account_Details', 'private_key')
 
 #connection details section

@@ -1,1 +1,0 @@
-Project of the e-commerce bitshop

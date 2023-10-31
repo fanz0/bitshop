@@ -6,7 +6,7 @@ div.container {
     border: 3px solid rgb(181, 230, 193);
     border-radius: 10px;
     text-transform: uppercase;
-    height: 450;
+    height: 530;
     width: 40%;
     position: relative;
 }
@@ -44,3 +44,10 @@ label {
     background-color: #4CAF50;
     color: white;
   }
+
+.alert {
+  padding: 10px;
+  border: solid 1px;
+  background-color: yellow;
+  margin-top: 5;
+}

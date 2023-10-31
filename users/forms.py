@@ -6,4 +6,4 @@ from .models import Profile
 class ProfileForm(ModelForm):
     class Meta:
         model = Profile
-        fields = ('bio','wallet_address',)
+        fields = ('bio','wallet_address','private_key',)

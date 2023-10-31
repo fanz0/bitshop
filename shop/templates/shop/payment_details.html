@@ -21,6 +21,10 @@
             <input type="number" placeholder="CVV/CVC">
             </label>
             <a href="show_page"<button class="button button1">BUY</button></a>
+            {% if balance >= 2 %}
+            <a href="fzn_pay"<button class="button button1" style="margin-top: 20;">BUY WITH 2 FZN COIN</button></a>
+            <p style="text-align: center;" class="alert"> Remember to save your private key before the payment. You must have money to pay the gas fee </p>
+            {% endif %}
         </div>
     </form>
 </div>

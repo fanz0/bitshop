@@ -1,3 +1,10 @@
 # BITSHOP
 An e-commerce which has token loyalty points. You can use this tokens to pay for product.
 
+# Run Server
+1. Download zip file and extract all files inside
+2. Open terminal in the directory where are saved files
+3. Install a virtual environment with `python -m venv name_of_venv`
+4. Install all requirements saved in file _requirements.txt_ in the virtual environment with `pip install -r requirements.txt`
+5. At the end run in the terminal `python manage.py runserver`
+6. Enjoy the project!

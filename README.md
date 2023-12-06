@@ -8,3 +8,6 @@ An e-commerce which has token loyalty points. You can use this tokens to pay for
 4. Install all requirements saved in file _requirements.txt_ in the virtual environment with `pip install -r requirements.txt`
 5. At the end run in the terminal `python manage.py runserver`
 6. Enjoy the project!
+
+# Video Tutorial
+https://github.com/fanz0/bitshop/assets/99316714/de9db271-af88-4344-af5f-0fbfbf8de3b8

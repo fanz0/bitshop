@@ -1,7 +1,7 @@
 # BITSHOP
 An e-commerce which has token loyalty points. You can use this tokens to pay for product.
 
-# Run Server
+### Run Server
 1. Download zip file and extract all files inside
 2. Open terminal in the directory where are saved files
 3. Install a virtual environment with `python -m venv name_of_venv`
@@ -10,5 +10,5 @@ An e-commerce which has token loyalty points. You can use this tokens to pay for
 6. At the end run in the terminal `python manage.py runserver`
 7. Enjoy the project!
 
-# Video Tutorial
+### Video Tutorial
 https://github.com/fanz0/bitshop/assets/99316714/de9db271-af88-4344-af5f-0fbfbf8de3b8
